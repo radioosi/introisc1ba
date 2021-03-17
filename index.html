@@ -1,4 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -13,15 +14,58 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-</head>
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFF00;
+}
+-->
+</style></head>
 
-<frameset rows="128,*" cols="*" frameborder="NO" border="0" framespacing="0">
-  <frame src="rojo.htm" name="topFrame" scrolling="NO" noresize >
-  <frameset rows="*" cols="201,*" framespacing="0" frameborder="NO" border="0">
-    <frame src="amarillo.htm" name="leftFrame" scrolling="NO" noresize>
-    <frame src="marino.htm" name="mainFrame">
-  </frameset>
-</frameset>
-<noframes><body>
-</body></noframes>
+<body>
+<div id="Layer1" style="position:absolute; left:429px; top:48px; width:564px; height:484px; z-index:1"><script language="javascript">
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="osorio") { 
+if (form.pass.value=="osito") {              
+location="https://radioosi.github.io/introisc1ba/" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+</script>
+
+<center>
+<table bgcolor="white" cellpadding="12" border="1">
+<tr><td colspan="2"><center>
+  <h1><i><b>Area de Seguridad</b></i></h1>
+</center></td></tr>
+<tr><td><h1><i><b>UserID:</b></i></h1></td><td><form name="login"><input
+name="id" type="text"></td></tr>
+<tr><td><h1><i><b>Password:</b></i></h1></td><td><input name="pass"
+type="password"></td></tr>
+<tr><td><center><input type="button" value="Login"
+onClick="pasuser(this.form)"></center></td><td><center><br><input
+type="Reset"></form></td></tr></table></center> </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
 </html>
